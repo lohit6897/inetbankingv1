@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68055" started-at="2022-07-23T16:55:13Z" finished-at="2022-07-23T16:56:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68055" started-at="2022-07-23T16:55:13Z" finished-at="2022-07-23T16:56:21Z">
+      <class name="com.inetbanking.testcases.Tc001_logintest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.inetbanking.testcases.Tc001_logintest@53b32d7]" name="setup" is-config="true" duration-ms="3547" started-at="2022-07-23T16:55:13Z" finished-at="2022-07-23T16:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.inetbanking.testcases.Tc001_logintest@53b32d7]" name="login" duration-ms="64467" started-at="2022-07-23T16:55:17Z" finished-at="2022-07-23T16:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.inetbanking.testcases.Tc001_logintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
