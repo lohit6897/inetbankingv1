@@ -36,7 +36,7 @@ public class Readconfig {
 		String pwd=pro.getProperty("password");
 		return pwd;
 	}
-	public String getchromepathL()
+	public String getchromepath()
 	{
 		String chromepath=pro.getProperty("chromepath");
 		return chromepath;

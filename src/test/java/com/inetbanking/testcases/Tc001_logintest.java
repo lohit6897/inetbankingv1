@@ -9,9 +9,9 @@ import com.inetbanking.pageobjects.Loginpage;
 public class Tc001_logintest extends Baseclass
 {
 	@Test
-	public void login()
+	public void login() throws InterruptedException
 	{
-		driver.get(baseURL);
+		
 		logger.info("URL is opened");
 		Loginpage lp=new Loginpage(driver);
 		lp.setusername(username);
@@ -19,6 +19,7 @@ public class Tc001_logintest extends Baseclass
 		lp.setpassword(password);
 		logger.info("password entered");
 		lp.clicksubmit();
+		Thread.sleep(8000);
 		
 	}
 	
