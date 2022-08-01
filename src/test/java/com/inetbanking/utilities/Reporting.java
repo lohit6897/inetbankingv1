@@ -6,7 +6,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.testng.ITestContext;
-import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
@@ -15,63 +14,19 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.aventstack.extentreports.reporter.ExtentReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class Listeners implements ITestListener{
+public class Reporting extends TestListenerAdapter
+
+{
 	
-	
-	 	public ExtentSparkReporter htmlReporter;
-	    public ExtentReports extent;
-	    public ExtentTest logger;
-
-	public void onTestStart(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-		logger=extent.createTest(result.getName());
-		logger.log(Status.PASS,MarkupHelper.createLabel(result.getName(),ExtentColor.GREEN));
-		
-	}
-
-	public void onTestFailure(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-		logger=extent.createTest(result.getName());
-		logger.log(Status.FAIL,MarkupHelper.createLabel(result.getName(),ExtentColor.RED));
-		String SCpath=System.getProperty("user.dir")+"\\Screenshots\\"+result.getName()+".png";
-		File f=new File(SCpath);
-		if(f.exists())
-		{
-			try
-			{
-			logger.fail("screeshot is below:"+logger.addScreenCaptureFromPath(SCpath));
-			}
-			catch(Exception e)
-			{
-				e.printStackTrace();
-			}
-		}
-		
-		
-	}
-
-	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void onStart(ITestContext context) {
+	public ExtentSparkReporter htmlReporter;
+    public ExtentReports extent;
+    public ExtentTest logger;
+    
+	public void onStart(ITestContext context) 
+	{
 		// TODO Auto-generated method stub
 		
 		String timestamp=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
@@ -96,8 +51,49 @@ public class Listeners implements ITestListener{
 
 		
 	}
-
+	
+	public void onTestSuccess(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+		logger=extent.createTest(result.getName());
+		logger.log(Status.PASS,MarkupHelper.createLabel(result.getName(),ExtentColor.GREEN));
+		
+	}
+	
+	public void onTestFailure(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+		logger=extent.createTest(result.getName());
+		logger.log(Status.FAIL,MarkupHelper.createLabel(result.getName(),ExtentColor.RED));
+		String SCpath=System.getProperty("user.dir")+"\\Screenshots\\"+result.getName()+".png";
+		File f=new File(SCpath);
+		if(f.exists())
+		{
+			try
+			{
+			logger.fail("screeshot is below:"+logger.addScreenCaptureFromPath(SCpath));
+			}
+			catch (Exception e)
+			{
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public void onTestSkipped(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+		logger=extent.createTest(result.getName());
+		logger.log(Status.SKIP,MarkupHelper.createLabel(result.getName(),ExtentColor.ORANGE));
+		
+	}
+	
+	public void onFinish(ITestContext context) 
+	{
+		extent.flush();
+	}
 	
 	
-
+	
+	
 }
