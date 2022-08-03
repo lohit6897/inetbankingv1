@@ -46,3 +46,15 @@
 2022-08-01 18:11:50,238 [main] INFO ebanking - URL is opened
 2022-08-01 18:11:50,316 [main] INFO ebanking - User name entered
 2022-08-01 18:11:50,337 [main] INFO ebanking - password entered
+2022-08-01 18:27:54,866 [main] INFO ebanking - URL is opened
+2022-08-01 18:27:54,930 [main] INFO ebanking - User name entered
+2022-08-01 18:27:54,946 [main] INFO ebanking - password entered
+2022-08-02 12:49:12,879 [main] INFO ebanking - URL is opened
+2022-08-02 12:49:12,983 [main] INFO ebanking - User name entered
+2022-08-02 12:49:13,099 [main] INFO ebanking - password entered
+2022-08-03 12:52:31,975 [main] INFO ebanking - user name entered
+2022-08-03 12:52:32,027 [main] INFO ebanking - password entered
+2022-08-03 12:52:35,493 [main] INFO ebanking - login passed
+2022-08-03 13:06:39,690 [main] INFO ebanking - user name entered
+2022-08-03 13:06:39,758 [main] INFO ebanking - password entered
+2022-08-03 13:06:42,959 [main] INFO ebanking - login passed

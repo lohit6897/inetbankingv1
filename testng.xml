@@ -10,7 +10,9 @@
   <test name="Banking App Test">
 <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.inetbanking.testcases.Tc001_logintest"/>
+    <!--<class name="com.inetbanking.testcases.Tc001_logintest"/>-->
+	<class name="com.inetbanking.testcases.Tc002_LoginDDT"/>
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

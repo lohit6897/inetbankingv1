@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-INetBankingV1" class="navigator-link">
-              <span class="suite-name border-skipped">INetBankingV1</span>
+              <span class="suite-name border-failed">INetBankingV1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-INetBankingV1" class="hide-methods skipped suite-INetBankingV1"> (hide)</a> <!-- hide-methods skipped suite-INetBankingV1 -->
-                      <a href="#" panel-name="suite-INetBankingV1" class="show-methods skipped suite-INetBankingV1"> (show)</a> <!-- show-methods skipped suite-INetBankingV1 -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-INetBankingV1" class="hide-methods failed suite-INetBankingV1"> (hide)</a> <!-- hide-methods failed suite-INetBankingV1 -->
+                      <a href="#" panel-name="suite-INetBankingV1" class="show-methods failed suite-INetBankingV1"> (show)</a> <!-- show-methods failed suite-INetBankingV1 -->
                     </span>
-                    <div class="method-list-content skipped suite-INetBankingV1">
+                    <div class="method-list-content failed suite-INetBankingV1">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-INetBankingV1" title="com.inetbanking.testcases.Tc001_logintest" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-INetBankingV1" title="com.inetbanking.testcases.Tc002_LoginDDT" class="method navigator-link" hash-for-method="loginddt(fufggfybd, dffgfg)">loginddt(fufggfybd, dffgfg)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-INetBankingV1 -->
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-INetBankingV1" title="com.inetbanking.testcases.Tc002_LoginDDT" class="method navigator-link" hash-for-method="loginddt(kfjghgjg, fjhgjgj)">loginddt(kfjghgjg, fjhgjgj)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-INetBankingV1" title="com.inetbanking.testcases.Tc002_LoginDDT" class="method navigator-link" hash-for-method="loginddt(jfhggj, hkjhjjh)">loginddt(jfhggj, hkjhjjh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-INetBankingV1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-INetBankingV1" class="hide-methods passed suite-INetBankingV1"> (hide)</a> <!-- hide-methods passed suite-INetBankingV1 -->
+                      <a href="#" panel-name="suite-INetBankingV1" class="show-methods passed suite-INetBankingV1"> (show)</a> <!-- show-methods passed suite-INetBankingV1 -->
+                    </span>
+                    <div class="method-list-content passed suite-INetBankingV1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-INetBankingV1" title="com.inetbanking.testcases.Tc002_LoginDDT" class="method navigator-link" hash-for-method="loginddt(mngr425192, qAsEpyp)">loginddt(mngr425192, qAsEpyp)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-INetBankingV1 -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -119,38 +143,132 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-INetBankingV1" class="panel INetBankingV1">
-          <div class="suite-INetBankingV1-class-skipped">
+          <div class="suite-INetBankingV1-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.inetbanking.testcases.Tc001_logintest</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.inetbanking.testcases.Tc002_LoginDDT</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out waiting for page to load.
+                  <a name="loginddt(fufggfybd, dffgfg)">
+                  </a> <!-- loginddt(fufggfybd, dffgfg) -->
+                  <span class="method-name">loginddt</span>
+                  <span class="parameters">(fufggfybd, dffgfg)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;uid&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;USM-2F-DESK2&apos;, ip: &apos;192.168.2.110&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41129/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7ff9ce7f-8b02-46cd-bdb8-08d91538c2c5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13492, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 680c3fbc-2760-4740-b387-52e087d91398
+*** Element info: {Using=name, value=uid}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at com.inetbanking.testcases.Baseclass.setup(Baseclass.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at com.inetbanking.pageobjects.Loginpage.setusername(Loginpage.java:29)
+	at com.inetbanking.testcases.Tc002_LoginDDT.loginddt(Tc002_LoginDDT.java:19)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginddt(kfjghgjg, fjhgjgj)">
+                  </a> <!-- loginddt(kfjghgjg, fjhgjgj) -->
+                  <span class="method-name">loginddt</span>
+                  <span class="parameters">(kfjghgjg, fjhgjgj)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;uid&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;USM-2F-DESK2&apos;, ip: &apos;192.168.2.110&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13492, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 680c3fbc-2760-4740-b387-52e087d91398
+*** Element info: {Using=name, value=uid}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at com.inetbanking.pageobjects.Loginpage.setusername(Loginpage.java:29)
+	at com.inetbanking.testcases.Tc002_LoginDDT.loginddt(Tc002_LoginDDT.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginddt(jfhggj, hkjhjjh)">
+                  </a> <!-- loginddt(jfhggj, hkjhjjh) -->
+                  <span class="method-name">loginddt</span>
+                  <span class="parameters">(jfhggj, hkjhjjh)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;uid&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;USM-2F-DESK2&apos;, ip: &apos;192.168.2.110&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13492, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 680c3fbc-2760-4740-b387-52e087d91398
+*** Element info: {Using=name, value=uid}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at com.inetbanking.pageobjects.Loginpage.setusername(Loginpage.java:29)
+	at com.inetbanking.testcases.Tc002_LoginDDT.loginddt(Tc002_LoginDDT.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-INetBankingV1-class-skipped -->
+          </div> <!-- suite-INetBankingV1-class-failed -->
+          <div class="suite-INetBankingV1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.inetbanking.testcases.Tc002_LoginDDT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginddt(mngr425192, qAsEpyp)">
+                  </a> <!-- loginddt(mngr425192, qAsEpyp) -->
+                  <span class="method-name">loginddt</span>
+                  <span class="parameters">(mngr425192, qAsEpyp)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-INetBankingV1-class-passed -->
         </div> <!-- panel INetBankingV1 -->
         <div panel-name="test-xml-INetBankingV1" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -165,9 +283,9 @@ Session ID: 7ff9ce7f-8b02-46cd-bdb8-08d91538c2c5
     &lt;listener class-name=&quot;com.inetbanking.utilities.Reporting&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Banking App Test&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;ie&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.inetbanking.testcases.Tc001_logintest&quot;/&gt;
+      &lt;class name=&quot;com.inetbanking.testcases.Tc002_LoginDDT&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Banking App Test --&gt;
 &lt;/suite&gt; &lt;!-- INetBankingV1 --&gt;
@@ -207,16 +325,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'com.inetbanking.testcases.Tc001_logintest')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'loginddt')
+data.setCell(0, 2, 'com.inetbanking.testcases.Tc002_LoginDDT')
+data.setCell(0, 3, 4122);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginddt')
+data.setCell(1, 2, 'com.inetbanking.testcases.Tc002_LoginDDT')
+data.setCell(1, 3, 11);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginddt')
+data.setCell(2, 2, 'com.inetbanking.testcases.Tc002_LoginDDT')
+data.setCell(2, 3, 10);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginddt')
+data.setCell(3, 2, 'com.inetbanking.testcases.Tc002_LoginDDT')
+data.setCell(3, 3, 9);
 window.suiteTableData['INetBankingV1']= { tableData: data, tableDiv: 'times-div-INetBankingV1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-INetBankingV1">
               </div> <!-- times-div-INetBankingV1 -->
             </div> <!-- times-div -->
@@ -242,20 +372,36 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.inetbanking.testcases.Tc001_logintest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.inetbanking.testcases.Tc002_LoginDDT</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">setup(ie)</span>
+                <span class="method-name">setup(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">302143 ms</span>
+                <span class="method-name">loginddt(mngr425192, qAsEpyp)</span>
+                <span class="method-start">13992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginddt(fufggfybd, dffgfg)</span>
+                <span class="method-start">18131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginddt(kfjghgjg, fjhgjgj)</span>
+                <span class="method-start">18143 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginddt(jfhggj, hkjhjjh)</span>
+                <span class="method-start">18157 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">302157 ms</span>
+                <span class="method-start">18171 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

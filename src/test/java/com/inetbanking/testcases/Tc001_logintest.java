@@ -2,6 +2,10 @@ package com.inetbanking.testcases;
 
 
 
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.inetbanking.pageobjects.Loginpage;
@@ -9,7 +13,7 @@ import com.inetbanking.pageobjects.Loginpage;
 public class Tc001_logintest extends Baseclass
 {
 	@Test
-	public void login() throws InterruptedException
+	public void login() throws InterruptedException, IOException
 	{
 		
 		logger.info("URL is opened");
@@ -19,7 +23,18 @@ public class Tc001_logintest extends Baseclass
 		lp.setpassword(password);
 		logger.info("password entered");
 		lp.clicksubmit();
-		Thread.sleep(8000);
+		
+		if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))
+		{
+			Assert.assertTrue(true);
+			logger.info("login pass");
+		}
+		else
+		{
+			Capturescreen(driver, "login");
+			Assert.assertTrue(false);
+			logger.info("login test failed");
+		}
 		
 	}
 	

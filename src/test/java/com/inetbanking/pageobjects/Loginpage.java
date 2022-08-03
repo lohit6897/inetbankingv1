@@ -20,6 +20,9 @@ public class Loginpage
 	WebElement password;
 	@FindBy(name="btnLogin")
 	WebElement btnlogin;
+	@FindBy(css="a[href='Logout.php']")
+	WebElement logout;
+	
 	
 	public void setusername(String uname)
 	{
@@ -32,5 +35,9 @@ public class Loginpage
 	public void clicksubmit()
 	{
 		btnlogin.click();
+	}
+	public void logoutb()
+	{
+		logout.click();
 	}
 	}
