@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-03T13:06:25 IST" name="INetBankingV1" finished-at="2022-08-03T13:06:53 IST" duration-ms="27779">
+  <suite started-at="2022-08-04T11:36:40 IST" name="INetBankingV1" finished-at="2022-08-04T11:37:09 IST" duration-ms="29280">
     <groups>
     </groups>
-    <test started-at="2022-08-03T13:06:25 IST" name="Banking App Test" finished-at="2022-08-03T13:06:53 IST" duration-ms="27779">
+    <test started-at="2022-08-04T11:36:40 IST" name="Banking App Test" finished-at="2022-08-04T11:37:09 IST" duration-ms="29280">
       <class name="com.inetbanking.testcases.Tc002_LoginDDT">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.Tc002_LoginDDT@2a54a73f]" started-at="2022-08-03T13:06:25 IST" name="setup" finished-at="2022-08-03T13:06:38 IST" duration-ms="13028" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.Tc002_LoginDDT@2a54a73f]" started-at="2022-08-04T11:36:40 IST" name="setup" finished-at="2022-08-04T11:36:52 IST" duration-ms="11612" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginddt(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.Tc002_LoginDDT@2a54a73f]" started-at="2022-08-03T13:06:39 IST" name="loginddt" data-provider="logindata" finished-at="2022-08-03T13:06:43 IST" duration-ms="4122" status="PASS">
+        <test-method signature="loginddt(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.Tc002_LoginDDT@2a54a73f]" started-at="2022-08-04T11:36:53 IST" name="loginddt" data-provider="logindata" finished-at="2022-08-04T11:36:59 IST" duration-ms="6702" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginddt -->
-        <test-method signature="loginddt(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.Tc002_LoginDDT@2a54a73f]" started-at="2022-08-03T13:06:43 IST" name="loginddt" data-provider="logindata" finished-at="2022-08-03T13:06:43 IST" duration-ms="9" status="FAIL">
+        <test-method signature="loginddt(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.Tc002_LoginDDT@2a54a73f]" started-at="2022-08-04T11:36:59 IST" name="loginddt" data-provider="logindata" finished-at="2022-08-04T11:36:59 IST" duration-ms="8" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -54,8 +54,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'USM-2F-DESK2', ip: '192.168.2.110', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '15.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13492, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 680c3fbc-2760-4740-b387-52e087d91398
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 8576, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 65251658-6fab-4610-9e23-4431f3d92dbc
 *** Element info: {Using=name, value=uid}]]>
             </message>
             <full-stacktrace>
@@ -64,8 +64,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'USM-2F-DESK2', ip: '192.168.2.110', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '15.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13492, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 680c3fbc-2760-4740-b387-52e087d91398
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 8576, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 65251658-6fab-4610-9e23-4431f3d92dbc
 *** Element info: {Using=name, value=uid}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
@@ -121,7 +121,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginddt -->
-        <test-method signature="loginddt(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.Tc002_LoginDDT@2a54a73f]" started-at="2022-08-03T13:06:43 IST" name="loginddt" data-provider="logindata" finished-at="2022-08-03T13:06:43 IST" duration-ms="11" status="FAIL">
+        <test-method signature="loginddt(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.Tc002_LoginDDT@2a54a73f]" started-at="2022-08-04T11:36:59 IST" name="loginddt" data-provider="logindata" finished-at="2022-08-04T11:36:59 IST" duration-ms="10" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -141,8 +141,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'USM-2F-DESK2', ip: '192.168.2.110', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '15.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13492, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 680c3fbc-2760-4740-b387-52e087d91398
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 8576, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 65251658-6fab-4610-9e23-4431f3d92dbc
 *** Element info: {Using=name, value=uid}]]>
             </message>
             <full-stacktrace>
@@ -151,8 +151,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'USM-2F-DESK2', ip: '192.168.2.110', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '15.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13492, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 680c3fbc-2760-4740-b387-52e087d91398
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 8576, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 65251658-6fab-4610-9e23-4431f3d92dbc
 *** Element info: {Using=name, value=uid}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
@@ -208,7 +208,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginddt -->
-        <test-method signature="loginddt(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.Tc002_LoginDDT@2a54a73f]" started-at="2022-08-03T13:06:43 IST" name="loginddt" data-provider="logindata" finished-at="2022-08-03T13:06:43 IST" duration-ms="10" status="FAIL">
+        <test-method signature="loginddt(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.Tc002_LoginDDT@2a54a73f]" started-at="2022-08-04T11:36:59 IST" name="loginddt" data-provider="logindata" finished-at="2022-08-04T11:36:59 IST" duration-ms="10" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -228,8 +228,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'USM-2F-DESK2', ip: '192.168.2.110', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '15.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13492, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 680c3fbc-2760-4740-b387-52e087d91398
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 8576, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 65251658-6fab-4610-9e23-4431f3d92dbc
 *** Element info: {Using=name, value=uid}]]>
             </message>
             <full-stacktrace>
@@ -238,8 +238,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'USM-2F-DESK2', ip: '192.168.2.110', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '15.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13492, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 680c3fbc-2760-4740-b387-52e087d91398
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220519220738, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 8576, moz:profile: C:\Users\Lohit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 65251658-6fab-4610-9e23-4431f3d92dbc
 *** Element info: {Using=name, value=uid}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
@@ -295,7 +295,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginddt -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.Tc002_LoginDDT@2a54a73f]" started-at="2022-08-03T13:06:43 IST" name="teardown" finished-at="2022-08-03T13:06:53 IST" duration-ms="9323" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.Tc002_LoginDDT@2a54a73f]" started-at="2022-08-04T11:36:59 IST" name="teardown" finished-at="2022-08-04T11:37:09 IST" duration-ms="9537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
